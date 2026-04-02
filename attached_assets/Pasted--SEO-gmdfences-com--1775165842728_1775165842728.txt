@@ -1,0 +1,196 @@
+ТЕХНИЧЕСКОЕ ЗАДАНИЕ
+SEO-оптимизированный временный лендинг / заглушка для gmdfences.com
+Цель: запустить качественную английскую страницу до выхода полноценного сайта, чтобы домен начал накапливать историю, релевантность и доверие.
+Важно
+Это не должна быть пустая заглушка вида “Coming Soon”. Нужен полноценный одностраничный SEO-лендинг на английском языке с понятной иерархией заголовков, структурой услуг и товаров, контактным блоком, микроразметкой и ссылками на дочерние проекты.
+
+1. Общая задача
+Необходимо создать временный англоязычный лендинг для домена https://gmdfences.com, который будет работать как корпоративный международный хаб бренда GMD Fences для рынка США до момента запуска полноценного сайта.
+Лендинг должен быть визуально аккуратным, логично структурированным, SEO-пригодным для индексации и содержать основные направления продукции и услуг. Все основные группы товаров и услуг на этом этапе отображаются как информационные блоки без переходов на внутренние страницы.
+2. Цели страницы
+•	Накопление возраста и истории домена.
+•	Формирование первичной релевантности по тематике fences, gates, automation, parking blockers.
+•	Создание доверительного корпоративного присутствия бренда в англоязычном сегменте.
+•	Сбор первичных обращений через телефон и форму отправки email.
+•	Перелинковка с дочерними проектами компании: Romania, Moldova, Bulgaria.
+3. Язык и базовые правила
+•	Весь контент, который видит пользователь на сайте, должен быть только на английском языке.
+•	Русский язык допускается только внутри данного ТЗ, но не в коде интерфейса и не в видимой части страницы.
+•	Все названия блоков, заголовков, подписей, кнопок, полей формы, системных сообщений и SEO-текстов должны быть на английском языке.
+•	Блоки категорий и подкатегорий должны быть не кликабельны.
+4. Обязательная структура страницы сверху вниз
+Ниже указана обязательная последовательность блоков. Порядок менять нельзя без отдельного согласования.
+Блок 1. Header
+•	Логотип / текстовый логотип GMD Fences.
+•	Краткая служебная навигация без лишнего шума: Home, Products, Contact. Если внутренних страниц нет — элементы можно оставить как якоря на блоки текущей страницы.
+•	Телефон в шапке в кликабельном формате tel:.
+•	Кнопка CTA: Request Information.
+SEO-требование: шапка должна быть легкой, без тяжелых мегаменю, без дублирующих ссылок, без скрытого мусорного HTML.
+
+Title:
+Custom Fences, Gates & Automation in USA | GMD Fences
+Description:
+GMD Fences offers custom fences, gates, automation and parking blockers for residential and commercial projects in the USA. Manufacturing, delivery and installation.
+
+Блок 2. Hero / первый экран
+Это главный экран страницы. Здесь должна быть самая важная иерархия заголовков.
+H1: Custom Fences, Gates and Automation Solutions in the USA
+Под H1 — короткий supporting text на английском языке:
+GMD Fences provides modern fence systems, gate solutions, automation options and parking control products for residential, commercial and industrial needs in the USA.
+•	Краткий текст до 250 символов под H1.
+•	Основная кнопка: Request Information.
+•	Вторичная кнопка: Contact Us.
+•	Фоновое изображение / визуал по тематике fences and gates без перегруза.
+Блок 3. Website Under Development + контакты
+Это обязательный блок сразу под первым экраном. Он должен четко сообщать, что полноценный сайт находится в разработке, но компания уже принимает запросы.
+H2: Website Under Development
+Текст блока на английском языке:
+Our full website is currently under development. In the meantime, you can contact GMD Fences for product information, project details, delivery options and consultation across the USA.
+•	Телефон компании в явном виде.
+•	Форма отправки email.
+•	Поля формы: Name, Email, Phone, Message.
+•	Кнопка формы: Send Request.
+•	Сообщение об успешной отправке: Thank you. Your request has been sent.
+Форма должна быть рабочей, валидировать обязательные поля и отправлять заявки на указанный email компании.
+Блок 4. Краткий SEO-текст о производстве, установке и доставке
+Этот блок обязателен и должен идти до каталожной части, чтобы поисковик рано видел тематический текст.
+H2: Manufacturing, Installation and Delivery in the USA
+Готовый текст на английском языке, до 400 символов:
+GMD Fences offers fence and gate manufacturing, professional installation support and reliable delivery solutions across the USA. We focus on durable systems for residential, commercial and industrial properties, combining modern design, practical engineering and dependable service.
+Блок 5. Основные направления продукции и услуг
+Это основной SEO-блок страницы. Он должен быть построен строго по иерархии H2 → H3 → список элементов. Все элементы отображаются текстом, без ссылок.
+H2: Our Main Product and Service Categories
+H3 №1: Fences
+•	Louver Fence
+•	Horizontal Profile Fence
+•	Horizontal Picket Fence
+•	Vertical Louver Fence
+•	Picket Fence
+•	Vertical Profile Fence 20x20
+•	Vertical Profile Fence 40x20
+•	Inside Profile Fence
+•	Inside Profile Fence U-45
+•	Profile Fence LUX
+H3 №2: Gates
+•	Swing Gates
+•	Wicket Gates / Pedestrian Gates
+•	Sliding Gate
+•	Cantilever Gate
+•	Bi-Folding Gate
+•	Articulated Sliding Gate
+•	Telescopic Sliding Gate
+H3 №3: Automation
+•	Gate Automation
+•	Wicket Gate Automation
+•	Other Automation Solutions
+H3 №4: Parking Blockers
+•	Parking Blockers
+Важно: названия должны быть именно в такой иерархии. Нельзя смешивать группы, менять порядок или переводить их произвольно без согласования.
+Блок 6. Преимущества компании
+Нужен короткий доверительный блок для усиления коммерческого и SEO-сигнала.
+H2: Why Choose GMD Fences
+•	Modern fence and gate systems
+•	Solutions for residential, commercial and industrial properties
+•	Engineering-focused approach
+•	Reliable communication and project support
+•	International company structure with regional projects
+Блок 7. Региональные проекты компании
+Этот блок нужен для перелинковки и объяснения структуры бренда.
+H2: Our Regional Projects
+Внутри блока разместить 3 карточки / строки со ссылками:
+•	Romania — https://gardurimd.ro
+•	Moldova — https://garduri.md
+•	Bulgaria — https://ogradigmd.bg
+Каждый элемент должен содержать название страны, URL проекта и короткое пояснение на английском языке, например: “Official GMD project for Romania”.
+Блок 8. FAQ
+Для усиления структуры, расширения семантики и возможности добавить FAQPage schema.
+H2: Frequently Asked Questions
+H3: Do you provide fence and gate solutions in the USA?
+Answer: Yes. GMD Fences provides information and support for fence systems, gate solutions, automation options and related products in the USA.
+H3: Can I request information before the full website is launched?
+Answer: Yes. You can contact the company by phone or send a request through the email form on this page.
+H3: Do you offer gate automation solutions?
+Answer: Yes. The company presents gate automation, wicket gate automation and other automation solutions.
+H3: Where can I find your regional projects?
+Answer: Links to the official regional projects for Romania, Moldova and Bulgaria are available at the bottom of the page.
+Блок 9. Footer
+•	Повтор телефона.
+•	Повтор email.
+•	Ссылки на Romania / Moldova / Bulgaria.
+•	Краткий copyright block.
+•	Юридическое или корпоративное название компании при наличии.
+5. SEO-иерархия заголовков
+•	На странице должен быть только один H1.
+•	H1 используется только в hero-блоке: “Custom Fences, Gates and Automation Solutions in the USA”.
+•	Все основные смысловые секции ниже должны быть H2.
+•	Внутри блока “Our Main Product and Service Categories” группы Fences / Gates / Automation / Parking Blockers должны быть H3.
+•	В FAQ каждый вопрос допускается как H3 внутри H2-блока Frequently Asked Questions.
+•	Нельзя использовать H2/H3 ради декоративного текста или дублировать одинаковые заголовки.
+6. Обязательная микроразметка / structured data
+На странице обязательно внедрить JSON-LD в <head> или ближе к концу <body>. Микроразметка должна быть валидной и соответствовать содержимому страницы.
+Обязательные типы schema.org:
+•	Organization — для бренда GMD Fences.
+•	WebSite — для сайта gmdfences.com.
+•	WebPage — для текущего лендинга.
+•	ContactPoint — для телефона и контакта.
+•	OfferCatalog или ItemList — для групп Fences / Gates / Automation / Parking Blockers.
+•	FAQPage — если FAQ-блок реализован на странице.
+Что должно быть в Organization:
+•	name: GMD Fences
+•	url: https://gmdfences.com/
+•	logo: абсолютный URL логотипа
+•	contactPoint: phone / contactType
+•	areaServed: USA
+•	sameAs или related project references использовать аккуратно только если это корректно по типу данных
+Что должно быть в каталожной разметке:
+•	Отдельные сущности для Fences, Gates, Automation, Parking Blockers.
+•	Внутри Fences перечислить все подтипы из ТЗ.
+•	Внутри Gates перечислить все подтипы из ТЗ.
+•	Внутри Automation перечислить все подтипы из ТЗ.
+Отдельно в коде страницы должна быть разметка ссылок на региональные проекты как список связанных проектов бренда.
+7. Технические SEO-требования
+•	Страница должна отдавать код ответа 200 OK.
+•	URL страницы: https://gmdfences.com/ без лишних параметров.
+•	Title: до 60–65 символов, на английском языке.
+•	Description: до 155–160 символов, на английском языке.
+•	Canonical: сам на себя.
+•	Meta robots: index, follow.
+•	Корректная Open Graph-разметка.
+•	Подключить favicon.
+•	Добавить alt у всех значимых изображений.
+•	Не использовать тяжелые видеофоны, лишние карусели и перегруженные JS-эффекты.
+•	Контент должен быть доступен в HTML, а не только в виде изображения.
+8. Что нельзя делать
+•	Нельзя делать пустую страницу только с фразой Coming Soon.
+•	Нельзя делать карточки категорий кликабельными, если целевых страниц еще нет.
+•	Нельзя менять заданную структуру Fences / Gates / Automation / Parking Blockers.
+•	Нельзя смешивать русские и английские подписи в интерфейсе.
+•	Нельзя добавлять noindex или блокировать страницу в robots.txt.
+•	Нельзя использовать autogenerated thin content без нормальной структуры.
+9. Критерии приемки
+•	Страница открывается по https://gmdfences.com/ и индексируема.
+•	На странице есть один H1, корректные H2 и H3.
+•	Все пользовательские элементы отображаются на английском языке.
+•	Есть блок Website Under Development с телефоном и рабочей email-формой.
+•	Есть отдельный англоязычный блок про manufacturing, installation and delivery in the USA.
+•	Есть блок с основной иерархией: Fences / Gates / Automation / Parking Blockers и всеми подтипами.
+•	Есть ссылки на Romania / Moldova / Bulgaria в нижней части страницы.
+•	На странице внедрена валидная structured data.
+•	Страница не выглядит как пустая заглушка, а воспринимается как полноценный временный корпоративный лендинг.
+10. Рекомендуемые meta tags для реализации
+Title: GMD Fences USA | Custom Fences, Gates and Automation Solutions
+Description: GMD Fences presents fences, gates, automation solutions and parking blockers in the USA. Contact us while the full website is under development.
+11. Короткое резюме для программиста
+Нужно сделать качественный одностраничный английский лендинг для gmdfences.com с понятной SEO-структурой. Это должна быть не пустая заглушка, а аккуратный временный сайт с H1/H2/H3, блоком Website Under Development, телефоном, email-формой, SEO-текстом по USA, строгой иерархией категорий и валидной микроразметкой.
+Приложение А. Быстрая карта иерархии заголовков
+Уровень	Заголовок	Где используется
+H1	Custom Fences, Gates and Automation Solutions in the USA	Только hero-блок
+H2	Website Under Development	Информационный блок + контакты
+H2	Manufacturing, Installation and Delivery in the USA	SEO-текстовый блок
+H2	Our Main Product and Service Categories	Общий блок каталожной структуры
+H3	Fences / Gates / Automation / Parking Blockers	Группы внутри каталожного блока
+H2	Why Choose GMD Fences	Блок преимуществ
+H2	Our Regional Projects	Блок перелинковки
+H2	Frequently Asked Questions	FAQ-блок
+H3	Вопросы FAQ	Отдельные вопросы внутри FAQ
+
