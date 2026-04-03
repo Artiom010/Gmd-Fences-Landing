@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_NOINDEX } from "@/lib/site-flags";
 import "./globals.css";
 
 const SITE_URL = "https://gmdfences.com";
@@ -58,8 +59,10 @@ export const metadata: Metadata = {
   publisher: "GMD Fences",
   category: "business",
   referrer: "origin-when-cross-origin",
-  robots: { index: true, follow: true },
-  alternates: { canonical: "/" },
+  robots: SITE_NOINDEX
+    ? { index: false, follow: false, nocache: true, googleBot: { index: false, follow: false } }
+    : { index: true, follow: true },
+  alternates: SITE_NOINDEX ? undefined : { canonical: "/" },
   manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
