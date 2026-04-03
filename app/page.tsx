@@ -230,6 +230,7 @@ export default function Page() {
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
+        credentials: "same-origin",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
