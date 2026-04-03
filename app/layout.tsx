@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const SITE_URL = "https://gmdfences.com";
@@ -32,12 +32,35 @@ const GATE_ITEMS = [
 
 const AUTOMATION_ITEMS = ["Gate Automation", "Wicket Gate Automation", "Other Automation Solutions"] as const;
 
+const SITE_KEYWORDS = [
+  "GMD Fences",
+  "gmdfences",
+  "custom fences USA",
+  "fence installation",
+  "metal fences",
+  "gates",
+  "swing gates",
+  "sliding gates",
+  "gate automation",
+  "parking blockers",
+  "commercial fencing",
+  "residential fencing",
+] as const;
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: PAGE_TITLE,
+  applicationName: "GMD Fences",
+  title: { default: PAGE_TITLE, template: "%s | GMD Fences" },
   description: PAGE_DESCRIPTION,
+  keywords: [...SITE_KEYWORDS],
+  authors: [{ name: "GMD Fences", url: SITE_URL }],
+  creator: "GMD Fences",
+  publisher: "GMD Fences",
+  category: "business",
+  referrer: "origin-when-cross-origin",
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     url: SITE_URL,
@@ -45,15 +68,22 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    images: [{ url: "/opengraph.jpg", width: 1200, height: 630, alt: "GMD Fences — custom fences, gates and automation in the USA" }],
   },
   twitter: {
     card: "summary_large_image",
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    images: ["/opengraph.jpg"],
   },
-  icons: { icon: "/favicon.svg" },
+  icons: {
+    icon: [{ url: "/gmdfences-icon.svg", type: "image/svg+xml" }],
+    shortcut: "/gmdfences-icon.svg",
+    apple: "/gmdfences-icon.svg",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0D1520",
+  colorScheme: "light",
 };
 
 const listItems = (names: readonly string[]) =>
@@ -73,7 +103,7 @@ const jsonLd = {
       url: `${SITE_URL}/`,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/img/logo.svg`,
+        url: `${SITE_URL}/gmdfences-icon.svg`,
       },
       areaServed: { "@type": "Country", name: "United States" },
       contactPoint: {

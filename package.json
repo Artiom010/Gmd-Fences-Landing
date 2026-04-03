@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "node scripts/clean-next.mjs",
+    "icons": "node scripts/build-gmdfences-icon.mjs",
     "dev": "next dev",
     "dev:turbo": "next dev --turbopack",
     "dev:clean": "npm run clean && next dev",

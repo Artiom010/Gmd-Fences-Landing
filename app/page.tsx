@@ -257,7 +257,7 @@ export default function Page() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/img/logo.svg"
-                alt=""
+                alt="GMD Fences"
                 className="h-9 w-auto shrink-0 opacity-95 brightness-0 invert"
               />
               <span className="hidden sm:block">
