@@ -27,6 +27,11 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# env (secrets)
+.env
+.env.local
+.env.*.local
+
 # misc
 /.sass-cache
 /connect.lock
@@ -47,3 +52,9 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+
+# Next.js / Vercel
+.next/
+out/
+.vercel
+.turbo

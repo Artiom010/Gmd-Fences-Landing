@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat e:/Gmd-Fences-Landing/lib/db/src/*.ts)",
+      "Bash(npm install:*)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Artiom010/Gmd-Fences-Landing/main/artifacts/gmdfences-landing/src/pages/Landing.tsx\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Artiom010/Gmd-Fences-Landing/main/artifacts/gmdfences-landing/src/index.css\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Artiom010/Gmd-Fences-Landing/main/artifacts/gmdfences-landing/src/components/InteractiveGlobe.tsx\")",
+      "Bash(curl -s \"https://api.github.com/repos/Artiom010/Gmd-Fences-Landing/git/trees/main?recursive=1\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(item['path']\\) for item in data.get\\('tree', []\\)]\")",
+      "Bash(curl -s \"https://api.github.com/repos/Artiom010/Gmd-Fences-Landing\")",
+      "Bash(curl -s \"https://api.github.com/repos/gardurimd/Gmd-Fences-Landing/git/trees/main?recursive=1\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(data[0]['text']\\)\")",
+      "Read(//tmp/**)",
+      "Read(//e/tmp/**)"
+    ]
+  }
+}
